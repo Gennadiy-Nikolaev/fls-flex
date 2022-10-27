@@ -216,10 +216,12 @@ body {
 .columns__row {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -8px;
 }
 .columns__column {
   flex: 0 1 50%;
   margin-bottom: 30px;
+  padding: 0 8px;
 }
 .columns__item {
 }
@@ -244,4 +246,75 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333333;
+}
+.vertical {
+  padding: 50px 0;
+}
+.vertical__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.title {
+}
+.vertical__body {
+  max-width: 990px;
+  margin: 0 auto;
+}
+.vertical__row {
+  display: flex;
+  margin: 0 -22.5px;
+}
+.vertical__column {
+  display: flex;
+  flex: 0 1 33.3333%;
+  padding: 0 22.5px;
+}
+.vertical__item {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  border: 2px solid #445162;
+  border-radius: 5px;
+  background-color: #445162;
+  color: #fff;
+}
+.vertical__subtitle {
+  text-align: center;
+  padding: 12px 0;
+  font-size: 24px;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+.vertical__label {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fff;
+  font-size: 40px;
+  line-height: 1.33;
+  color: #445162;
+}
+.vertical__text {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+  flex: 1 1 auto;
+}
+.vertical__text p {
+  margin-bottom: 25px;
+}
+.vertical__text p:last-child {
+  margin-bottom: 0;
+}
+.vertical__btn {
+  display: block;
+  margin: 0 20px;
+  padding: 12px 0;
+  height: 40px;
+  font-size: 18px;
+  line-height: 1;
+  color: #445161;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
 }
